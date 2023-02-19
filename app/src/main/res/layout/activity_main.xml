@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="20dp"
         android:text="Calculer Votre"
         android:textColor="@color/textblue"
         android:textSize="34sp"
@@ -22,7 +22,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="15dp"
         android:text="AGE"
         android:padding="10dp"
         android:textColor="@color/white"
@@ -33,7 +33,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="15dp"
         android:text="En Minutes"
         android:textColor="@color/textblue"
         android:textSize="34sp"
@@ -49,19 +49,20 @@
         android:textSize="18dp"
         android:backgroundTint="@color/btnbg"
         />
+
     <TextView
+        android:id="@+id/tvDateSelectionner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:text="29.12.1999"
+        android:layout_marginTop="15dp"
+        tools:text="29.12.1999"
         android:textColor="@color/textblue"
         android:textSize="20sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="10dp"
         android:text="Date Selectionner"
         android:textColor="@color/lightgray"
         android:textSize="20sp"
@@ -69,18 +70,18 @@
         />
 
     <TextView
+        android:id="@+id/tvDateEnMinute"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
-        android:text="1500000"
+        android:layout_marginTop="15dp"
+        tools:text="1500000"
         android:textColor="@color/textblue"
         android:textSize="40sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="10dp"
         android:text="Votre age en minute"
         android:textColor="@color/lightgray"
         android:textSize="20sp"
